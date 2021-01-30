@@ -31,7 +31,20 @@ public class App {
         //Capturando valor do primeiro elemento da lista
         String nome = nomes.get(1);
 
-        
+        //retornando tamanho da lista
+        int tamanho = nomes.size();
+
+        //verifica se a lista possui determinado elemento
+        boolean tem = nomes.contains("Willian");
+
+        //Verifica se lista é vazia
+        boolean vazia = nomes.isEmpty();
+
+        //limpa lista
+        nomes.clear();
+
+        //Veifica se o item existe na lista e retorna sua posicao
+        int posicaoDoElemento = nomes.indexOf("Maria");
 
     }
 }
