@@ -63,6 +63,7 @@ public class App {
         filaBanco.add("Willian");
         filaBanco.add("Maria");
         filaBanco.add("João");
+        filaBanco.add("José");
 
         System.out.println(filaBanco);
 
