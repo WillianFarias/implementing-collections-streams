@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class ComparatorExample {
@@ -12,6 +13,10 @@ public class ComparatorExample {
     System.out.println(estudantes);
 
     estudantes.sort((first, second) -> first.getAge() - second.getAge());
+
+    System.out.println(estudantes);
+
+    estudantes.sort(Comparator.comparingInt(Estudante::getAge).reversed());
 
     System.out.println(estudantes);
   }
